@@ -9,6 +9,7 @@ readme = "README.md"
 python = "^3.13"
 pandas = "^2.2.3"
 dvc = "^3.56.0"
+kaggle = "^1.6.17"
 
 
 [build-system]
