@@ -4,7 +4,7 @@ from pathlib import Path
 
 def create_connection():
     """Create a database connection"""
-    return sqlite3.connect('football_data.db')
+    return sqlite3.connect('transfermarkt_data.db')
 
 def create_tables(conn):
     """Create tables with appropriate schema"""
